@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.H{
+    text-align: center;
+    font-size: 20px;
+    font-family: tahoma;
+    letter-spacing: 0.3rem;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+.output{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.uncompliteul{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.compliteul{
+    width: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.item{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: tahoma;
+    color:rgb(47, 27, 27);
+    margin-left: auto;
+}
+.delate{
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+    background-color: rgb(153, 90, 90);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   margin-left: 20px;
+}
+.check{
+    width: 18px;
+    height: 22px;
+    vertical-align: middle;
+}
+#task{
+    width: 300px;
+    border: 1px solid darkolivegreen;
+    outline: none;
+    padding: 8px;
+}
+#task::focus{
+    outline: none;
+}
+#btn{
+    font-size: 16px;
+    font-family: tahoma;
+    color: #fff;
+    cursor: pointer;
+    background-color: darkslategray;
+    padding: 5px;
+    border: 1px solid darkslategray;
+}
+.label{
+    margin-left: 10px;
+}
+.compliteUL{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+}
